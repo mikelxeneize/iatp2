@@ -9,7 +9,7 @@ import pandas as pd
 
 # importacion del set de entrenamiento
 
-dataset_train_sinFiltrar = pd.read_csv('/home/mikel/Documents/Facultad/IA/tp-2/Weather_Valencia_Train_2015-2017.csv')
+dataset_train_sinFiltrar = pd.read_csv('Weather_Valencia_Train_2015-2017.csv')
 
 #filtracion de las columnas que me interesan
 dataset_train =dataset_train_sinFiltrar.iloc[:, 2:3]
